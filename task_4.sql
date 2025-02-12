@@ -1,2 +1,2 @@
-mysql -u root -p alx_book_store
-SELECT books 
+SELECT * FROM INFORMATION_SCHEMA.COLUMN
+WHERE TABLE_NAME = 'alx_book_store'
